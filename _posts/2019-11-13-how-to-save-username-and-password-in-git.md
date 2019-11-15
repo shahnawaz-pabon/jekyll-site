@@ -29,6 +29,7 @@ git config --global credential.helper 'cache --timeout=14400'
 
 This command will remember your credentials for 4 hours. Your `username` and `password` will be asked for the first time during **push** or **pull** as well.
 
+
 ```bash
 git config --global user.name "your username"
 git config --global user.password "your password"

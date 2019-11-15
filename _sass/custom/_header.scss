@@ -189,13 +189,13 @@ h1{
 	text-align: center;
 }
 p{
-	text-align: center;
+	// text-align: center;
 	margin: 0;
 	padding-top: 10px;
 	opacity: 1;
 	transform: translate(0);
-    transition: all 300ms linear;
-    transition-delay: 1700ms;
+  transition: all 300ms linear;
+  transition-delay: 1700ms;
 }
 body.hero-anime p{
 	opacity: 0;
@@ -507,3 +507,20 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-radius: 50%;
     box-shadow: 0 0 0 20px rgba(12,12,12,.1);
 }
+
+
+/* Page content center css */
+.page-content {
+  max-width: 800px;
+  padding: 0 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 620px) {
+  .page-content {
+      padding: 0 2rem;
+  }
+}
+
+/* End of page content center css */
