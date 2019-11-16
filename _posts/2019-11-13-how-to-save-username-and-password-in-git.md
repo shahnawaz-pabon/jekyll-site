@@ -2,14 +2,14 @@
 layout: post
 title:  "Save username and password in GIT"
 date:   2019-11-13 23:28:27 +0600
-image: '/assets/thumbnails/git.png'
+image: '{{ site.baseurl }}/assets/thumbnails/git.png'
 categories: Git
 tags: git
 ---
 
-<div align="center">
+<!-- <div align="center">
     <img src="https://img.icons8.com/color/100/000000/git.png">
-</div>
+</div> -->
 
 ### Run
 
@@ -28,7 +28,6 @@ git config --global credential.helper 'cache --timeout=14400'
 ```
 
 This command will remember your credentials for 4 hours. Your `username` and `password` will be asked for the first time during **push** or **pull** as well.
-
 
 ```bash
 git config --global user.name "your username"
