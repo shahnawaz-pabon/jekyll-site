@@ -2,7 +2,7 @@
 layout: post
 title:  "Save username and password in GIT"
 date:   2019-11-13 23:28:27 +0600
-image: '{{ site.baseurl }}/assets/thumbnails/git.png'
+image: 'assets/thumbnails/git.png'
 categories: Git
 tags: git
 ---
