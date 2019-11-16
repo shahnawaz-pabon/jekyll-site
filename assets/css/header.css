@@ -524,3 +524,9 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* End of page content center css */
+
+/* Header's margin override */
+.my-5{
+  margin-bottom: 0px !important;
+}
+/* End of Header's margin override */
