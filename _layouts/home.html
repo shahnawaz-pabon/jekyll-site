@@ -28,12 +28,21 @@ layout: default
       cursor: pointer;
     }
 
+    .post-links {
+      color: #828d90;
+    }
+
+    .post-links:hover {
+      text-decoration: none;
+      color: #2c3e50;
+    }
+
   </style>
 
   {%- if site.posts.size > 0 -%}
 
     {%- for post in site.posts -%}
-      <a href="{{ post.url | relative_url }}">
+      <a class="post-links" href="{{ post.url | relative_url }}">
         <div class="row posts">
           <div class="col-sm-2" style="margin-top: 5px; margin-bottom: 5px; margin-right: -30px;">
             {% if post.featured-image %}{% include post-featured-image.html image=post.featured-image %}{% endif %}
