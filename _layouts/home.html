@@ -7,32 +7,51 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+  <!-- {{ content }} -->
+
+  <style>
+    .img-circle {
+      height:60px;
+      width:60px;
+      border-radius: 50%;
+    }
+
+    div.row.posts {
+      border-radius:4px;
+      /* width:70%; */
+      margin:0px auto;
+      border-collapse: collapse;
+    }
+
+    div.row.posts:hover {
+      background-color: #dee2e6;
+      cursor: pointer;
+    }
+
+  </style>
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
 
-    <!-- <p class="feed-subscribe">
-      <a href="{{ 'feed.xml' | relative_url }}">
-        <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
+    {%- for post in site.posts -%}
+      <a href="{{ post.url | relative_url }}">
+        <div class="row posts">
+          <div class="col-sm-2" style="margin-top: 5px; margin-bottom: 5px; margin-right: -30px;">
+            <img src="https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg" class="img-circle">
+          </div>
+
+          <div class="col-sm-10">
+            <h3>{{ post.title | escape }}</h3>
+            <h4>
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              <small class="text-muted">{{ post.date | date: date_format }} • <span class="text-muted">Tags</span></small>
+            </h4>
+          </div>
+
+        </div>
       </a>
-    </p> -->
+    {%- endfor -%}
+
   {%- endif -%}
+
 
 </div>
