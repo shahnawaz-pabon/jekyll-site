@@ -1,6 +1,25 @@
 ---
 layout: default
 ---
+<style>
+  .post-tags span {
+    display: inline-block;
+    padding: .1rem .5rem;
+    background: #f2f2f2;
+    border-radius: 4px;
+    margin: 0 .5rem .5rem 0;
+  }
+
+  .post-tags span a:hover{
+    text-decoration: none;
+  }
+
+  .post-tags span:hover {
+    color: #fff;
+    background: #ced4da;
+  }
+
+</style>
 
 <div class="post-header">
 
@@ -9,7 +28,7 @@ layout: default
     {% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}
   </div>
 
-  <div style="float: left; margin: 10px;">
+  <div style="float: left; margin: 0 15px;">
     <!-- Post's Title -->
     <h1 class="post-title" style="font-size: 1.75rem; margin-bottom: 0;">{{ page.title | escape }}</h1>
 
@@ -25,7 +44,12 @@ layout: default
       <!-- Post's Tags -->
       {% for tag in page.tags %}
         <!-- <a class="tag" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a> -->
-        <a href="/tag/{{ tag }}" class="text-muted" style="background: #dee2e6; margin: 0 7px;">{{ tag }}</a>
+        <span>
+          <a href="/tag/{{ tag }}" class="text-muted">
+            <i class="fas fa-tag"></i>
+            {{ tag }}
+          </a>
+        </span>
       {% endfor %}
     </div>
 
