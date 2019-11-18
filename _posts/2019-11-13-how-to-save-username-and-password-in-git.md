@@ -4,7 +4,7 @@ title:  "Save username and password in GIT"
 date:   2019-11-13 23:28:27 +0600
 featured-image: 'git.png'
 categories: Git
-tags: git
+tags: [git, git config]
 ---
 
 <!-- <div align="center">
