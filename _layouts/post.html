@@ -2,6 +2,12 @@
 layout: default
 ---
 <style>
+
+  div.post-header {
+    display: flex;
+    margin-bottom: 50px;
+  }
+
   .post-tags span {
     display: inline-block;
     padding: .1rem .5rem;
@@ -24,11 +30,11 @@ layout: default
 <div class="post-header">
 
   <!-- Post's Featured image -->
-  <div style="float: left; width: 100px; height: 100px;">
+  <div style="width: 100px; height: 100px;">
     {% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}
   </div>
 
-  <div style="float: left; margin: 0 15px;">
+  <div style="margin-top: auto;margin-bottom: auto; margin-left: 20px;">
     <!-- Post's Title -->
     <h1 class="post-title" style="font-size: 1.75rem; margin-bottom: 0;">{{ page.title | escape }}</h1>
 
@@ -45,7 +51,7 @@ layout: default
       {% for tag in page.tags %}
         <!-- <a class="tag" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a> -->
         <span>
-          <a href="/tag/{{ tag }}" class="text-muted">
+          <a href="/tags/#{{ tag | slugify }}" class="text-muted">
             <i class="fas fa-tag"></i>
             {{ tag }}
           </a>
@@ -58,9 +64,8 @@ layout: default
 </div>
 
 <div class="post">
-  <br/>
 
-  <div class="post-content" style="margin-top: 150px;">
+  <div class="post-content">
     {{ content }}
   </div>
 
