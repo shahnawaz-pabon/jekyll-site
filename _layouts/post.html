@@ -11,21 +11,21 @@ layout: default
 
   <div style="float: left; margin: 10px;">
     <!-- Post's Title -->
-    <h1 class="post-title" style="font-size: 1.75rem;">{{ page.title | escape }}</h1>
+    <h1 class="post-title" style="font-size: 1.75rem; margin-bottom: 0;">{{ page.title | escape }}</h1>
 
     <div class="post-initial">
       <!-- Post's Time -->
-      <time>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <time class="text-muted" style="font-size: 12px;">
+        {%- assign date_format = site.minima.date_format | default: "%-d %b %Y" -%}
         {{ page.date | date: date_format }}
       </time>
     </div>
 
     <div class="post-tags">
       <!-- Post's Tags -->
-      {% for tag in post.tags %}
+      {% for tag in page.tags %}
         <!-- <a class="tag" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a> -->
-        <span class="text-muted">{{ tag }}</span>
+        <a href="/tag/{{ tag }}" class="text-muted" style="background: #dee2e6; margin: 0 7px;">{{ tag }}</a>
       {% endfor %}
     </div>
 
