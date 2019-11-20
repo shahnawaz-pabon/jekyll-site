@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portfolio
-permalink: /portfolio/
+permalink: /portfolio
 ---
 
-### Portfolio
+### This is Shahnawaz Hossan's Portfolio
