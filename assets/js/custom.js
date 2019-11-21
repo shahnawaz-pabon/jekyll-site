@@ -66,15 +66,23 @@
   });
 
   /* Nav items active on click */
+  $(".navbar-nav li").click(function(event) {
+    var $this = $(this);
+
+    console.log($(this));
+    $(".navbar-nav li").removeClass("active");
+    $this.removeClass('active');
+    $($this).addClass("active");
+  });
     //Click event handler for nav-items
-    $('.nav-item').on('click',function(){
-
-      //Remove any previous active classes
-      $('.nav-item').removeClass('active');
-
-      //Add active class to the clicked item
-      $(this).addClass('active');
-    });
+    // $('.nav-item').on('click',function(){
+    //
+    //   //Remove any previous active classes
+    //   $('.nav-item').removeClass('active');
+    //
+    //   //Add active class to the clicked item
+    //   $(this).addClass('active');
+    // });
   /* Nav items active on click */
 
   })(jQuery);
