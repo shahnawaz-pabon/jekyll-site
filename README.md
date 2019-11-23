@@ -5,7 +5,7 @@
     </h1>
 </div>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![License: MIT][license-badge]][license]
 
 ## Table of Contents
 * [Description](#description)
@@ -18,6 +18,13 @@
 ## Technologies
 
 ## Author
-* Shahnawaz Hossan
+* [Shahnawaz Hossan][author]
 
 ## License
+[MIT][license] © [Shahnawaz Hossan][author]
+
+<!-- Definitions -->
+[author]: https://pabonsec.github.io
+[license]: license
+[license-badge]: https://img.shields.io/badge/License-MIT-green
+[license-url]: https://opensource.org/licenses/MIT
