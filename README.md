@@ -25,6 +25,6 @@
 
 <!-- Definitions -->
 [author]: https://pabonsec.github.io
-[license]: license
+[license]: LICENSE
 [license-badge]: https://img.shields.io/badge/License-MIT-green
 [license-url]: https://opensource.org/licenses/MIT
