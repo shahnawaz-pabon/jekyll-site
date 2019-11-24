@@ -69,7 +69,7 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus -%}
+  {%- if site.disqus.shortname -%}
     {%- include disqus.html -%}
   {%- endif -%}
 
