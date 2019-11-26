@@ -1,0 +1,60 @@
+
+.page-content {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.py-5 {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+/* HEADER */
+.masthead {
+  /* Layout declarations */
+  background: url("http://st.shopio.com/storefront/aa/3367/themes/beauty_shop_2015_01_01_01_56_59/images/intro-bg.jpg") no-repeat fixed center;
+  background-size: cover;
+  padding: 1em 2em;
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  /* Typography declarations */
+  font-size: 4em;
+  color: #ffffff;
+}
+
+.masthead-intro {
+  margin: 2em 0 0 0;
+}
+
+.masthead-heading {
+  /* Typography declarations */
+  font-size: 4rem;
+  /* Layout declarations */
+  padding: 0;
+  margin: 15px 0 1em;
+  color: #ffffff;
+}
+
+/* BODY */
+
+
+/* Responsive design */
+@media only screen and (max-width: 500px) {
+  /* HEADER */
+  .masthead {
+    padding: 1em;
+  }
+
+  .masthead-intro {
+    font-size: 1.5rem;
+  }
+
+  .masthead-heading {
+    font-size: 4rem;
+  }
+
+}
