@@ -8,10 +8,10 @@ tags: [snap, ubuntu]
 ---
 
 ## Table of Contents
-* [Getting Started](#Getting Started)
-* [Setting Up](#Setting Up)
-* [Install and Run your first snap](#Install and Run your first Snap)
-* [More Features](#More Features)
+* [Getting Started](#getting-started)
+* [Setting Up](#setting-up)
+* [Install and Run your first snap](#install-and-run-your-first-snap)
+* [More Features](#more-features)
 
 ### Getting Started
 
