@@ -8,10 +8,10 @@ tags: [snap, ubuntu]
 ---
 
 ## Table of Contents
-* [Getting Started](#getting-started)
-* [Setting Up](#setting-up)
-* [Install and Run your first Snap](#install-and-run-your-first-snap)
-* [More Features](#more-features)
+- [ ] &nbsp; [Getting Started](#getting-started)
+- [ ] &nbsp; [Setting Up](#setting-up)
+- [ ] &nbsp; [Install and Run your first Snap](#install-and-run-your-first-snap)
+- [ ] &nbsp; [More Features](#more-features)
 
 <br/>
 ### Getting Started
@@ -29,6 +29,7 @@ The system is actually designed for **IoT, Cloud and Desktop Computing** that ar
 * Cross-Platform
 * Dependency-free
 
+---
 <br/>
 ### Setting Up
 <br/>
@@ -49,6 +50,7 @@ ubuntu  18.04
 kernel  5.0.0-36-generic
 ```
 
+---
 <br/>
 ### Install and Run your first Snap
 <br/>
@@ -105,5 +107,6 @@ $ hello
 Hello, world!
 ```
 
+---
 <br/>
 ### More Features
