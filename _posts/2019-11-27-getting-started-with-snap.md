@@ -8,13 +8,14 @@ tags: [snap, ubuntu]
 ---
 
 ## Table of Contents
-- [ ] &nbsp; [Getting Started](#getting-started)
-- [ ] &nbsp; [Setting Up](#setting-up)
-- [ ] &nbsp; [Install and Run your first Snap](#install-and-run-your-first-snap)
-- [ ] &nbsp; [More Features](#more-features)
+&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-hand-paper"></i> &nbsp; [Getting Started](#getting-started) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-cog"></i> &nbsp; [Setting Up](#setting-up) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-box"></i> &nbsp; [Install and Run your first Snap](#install-and-run-your-first-snap) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-angle-double-right"></i> &nbsp; [More Features](#more-features)
 
 <br/>
-### Getting Started
+
+<h3 id="getting-started"><i class="fas fa-hand-paper"></i> Getting Started</h3>
 <br/>
 1. Snap (or `Snappy` package manager) is one of the best software deployment and package management system which is built by `Canonical`.
 2. A `snap` is a bundle of an app and works across many different Linux distributions as well.
@@ -31,9 +32,9 @@ The system is actually designed for **IoT, Cloud and Desktop Computing** that ar
 
 ---
 <br/>
-### Setting Up
+<h3 id="setting-up"><i class="fas fa-cog"></i> Setting Up</h3>
 <br/>
-#### Installing `snapd` on Ubuntu
+#### <i class="fas fa-pen-alt"></i> Installing `snapd` on Ubuntu
 
 ```bash
 $ sudo apt install snapd
@@ -52,9 +53,9 @@ kernel  5.0.0-36-generic
 
 ---
 <br/>
-### Install and Run your first Snap
+<h3 id="install-and-run-your-first-snap"><i class="fas fa-box"></i> Install and Run your first Snap</h3>
 <br/>
-#### Finding a `snap`
+#### <i class="fas fa-pen-alt"></i> Finding a `snap`
 
 ```bash
 $ snap find something
@@ -70,7 +71,7 @@ spt                  v0.4.0        popey           -        Spotify TUI
 `snap find <search keywords>` queries the store and list the results with their details. `✓` indecates that publisher has been verified.
 
 <br/>
-#### Learning about a `snap`
+#### <i class="fas fa-pen-alt"></i> Learning about a `snap`
 
 ```bash
 $ snap info hello
@@ -93,7 +94,7 @@ channels:
 You will know details about a package by running this command.
 
 <br/>
-#### Install and execution
+#### <i class="fas fa-pen-alt"></i> Install and execution
 
 ```bash
 $ sudo snap install hello
@@ -108,7 +109,7 @@ Hello, world!
 ```
 
 <br/>
-#### Keep tracking installed `snaps`
+#### <i class="fas fa-pen-alt"></i> Keep tracking installed `snaps`
 
 ```bash
 $ snap list
@@ -121,7 +122,7 @@ gnome-3-28-1804       3.28.0-16-g27c9498.27c9498  110   stable/…  canonical✓
 Installed snaps on your system will be listed by this command.
 
 <br/>
-#### Refreshing an installed `snap`
+#### <i class="fas fa-pen-alt"></i> Refreshing an installed `snap`
 
 ```bash
 $ sudo snap refresh hello
@@ -139,9 +140,9 @@ You can change the channel from which your snap will be tracked and refreshed wi
 
 ---
 <br/>
-### More Features
+<h3 id="more-features"><i class="fas fa-angle-double-right"></i> More Features </h3>
 <br/>
-#### Reverting an installed `snap`
+#### <i class="fas fa-pen-alt"></i> Reverting an installed `snap`
 ```bash
 $ sudo snap revert hello
 hello reverted to 2.10
@@ -165,7 +166,7 @@ $ snap list --all
 This will list all `revisions` available for every installed snaps.
 
 <br/>
-#### Enabling and Disabling a `snap`
+#### <i class="fas fa-pen-alt"></i> Enabling and Disabling a `snap`
 
 ```bash
 $ sudo snap disable hello
@@ -175,7 +176,7 @@ $ sudo snap enable hello
 hello enabled
 ```
 <br/>
-#### Removing a `snap`
+#### <i class="fas fa-pen-alt"></i> Removing a `snap`
 
 ```bash
 $ sudo snap remove hello
