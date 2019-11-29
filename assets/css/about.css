@@ -14,7 +14,7 @@
 /* HEADER */
 .masthead {
   /* Layout declarations */
-  background: url("http://st.shopio.com/storefront/aa/3367/themes/beauty_shop_2015_01_01_01_56_59/images/intro-bg.jpg") no-repeat fixed center;
+  background: url("/assets/images/about.jpeg") no-repeat fixed center;
   background-size: cover;
   padding: 1em 2em;
   text-align: center;
