@@ -107,6 +107,79 @@ $ hello
 Hello, world!
 ```
 
+<br/>
+#### Keep tracking installed `snaps`
+
+```bash
+$ snap list
+Name                  Version                     Rev   Tracking  Publisher   Notes
+core                  16-2.42.1                   8039  stable    canonical✓  core
+core18                20191030                    1265  stable    canonical✓  base
+gnome-3-28-1804       3.28.0-16-g27c9498.27c9498  110   stable/…  canonical✓  -
+```
+
+Installed snaps on your system will be listed by this command.
+
+<br/>
+#### Refreshing an installed `snap`
+
+```bash
+$ sudo snap refresh hello
+snap "hello" has no updates available
+```
+
+Above command will check whether a newer version is available or not and it will be downloaded and installed automatically.
+
+```bash
+$ sudo snap refresh --channel=beta hello
+hello (beta) 2.10.1 from Canonical✓ refreshed
+```
+
+You can change the channel from which your snap will be tracked and refreshed with this single command.
+
 ---
 <br/>
 ### More Features
+<br/>
+#### Reverting an installed `snap`
+```bash
+$ sudo snap revert hello
+hello reverted to 2.10
+```
+
+```bash
+$ snap list --all hello
+Name   Version  Rev  Tracking  Publisher   Notes
+hello  2.10     38   beta      canonical✓  -
+hello  2.10.1   29   beta      canonical✓  disabled
+```
+
+Above command will list all `revisions` of hello.
+
+> Revision is the sequence number which is assigned by the store when it was uploaded
+
+```bash
+$ snap list --all
+```
+
+This will list all `revisions` available for every installed snaps.
+
+<br/>
+#### Enabling and Disabling a `snap`
+
+```bash
+$ sudo snap disable hello
+hello disabled
+
+$ sudo snap enable hello
+hello enabled
+```
+<br/>
+#### Removing a `snap`
+
+```bash
+$ sudo snap remove hello
+hello removed
+```
+
+After running this command, all snap's revisions will be removed. To remove specific revision add `--revision=<revision-number>` to the remove command.
