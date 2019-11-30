@@ -17,18 +17,25 @@ h3, p, ul{
 
 </style>
 
+
+<!-- Header (SECTION 1/3) -->
+<header class="masthead">
+  <p class="masthead-intro"></p>
+  <h1 class="masthead-heading"><span id="typed"></span></h1>
+</header>
+
+
 <script>
-var typed = new Typed('.element', {
-  strings: ["Hi, I'm", "Shahnawaz Hossan"],
-  typeSpeed: 30
+var typed = new Typed('#typed', {
+  strings: ["Hi, I'm", "Shahnawaz Hossan", "Software Engineer(Full-Stack)", "Byte Trek Ltd."],
+  typeSpeed: 60,
+  backSpeed: 60,
+  loop: true,
+  startDelay: 500,
+  cursorChar: '_'
 });
 
 </script>
-<!-- Header (SECTION 1/3) -->
-<header class="masthead">
-  <p class="masthead-intro">Hi, I'm</p>
-  <h1 class="masthead-heading">Shahnawaz Hossan</h1>
-</header>
 
 <br/>
 <br/>
