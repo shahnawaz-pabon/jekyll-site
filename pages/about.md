@@ -1,6 +1,5 @@
 ---
 layout: page
-<!-- title: About -->
 permalink: /about
 ---
 
@@ -17,6 +16,14 @@ h3, p, ul{
 
 
 </style>
+
+<script>
+var typed = new Typed('.element', {
+  strings: ["Hi, I'm", "Shahnawaz Hossan"],
+  typeSpeed: 30
+});
+
+</script>
 <!-- Header (SECTION 1/3) -->
 <header class="masthead">
   <p class="masthead-intro">Hi, I'm</p>
