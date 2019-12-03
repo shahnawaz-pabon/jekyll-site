@@ -3,17 +3,18 @@
   Footer
   ======================== */
 
-  footer {
+  .footerWrap {
     background-color: #2C3E50;
     color:  #fff;
     font-size: 1em;
     text-align: center;
-    padding: 3%;
-    margin-top: 5%;
-    bottom: 0;
+    padding: 2%;
+    margin-top: 3%;
+    top: 100%;
     left: 0;
     width: 100%;
     height: auto;
+    position: absolute;
   }
 
   a.social-button {
