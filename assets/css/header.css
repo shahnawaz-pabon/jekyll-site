@@ -422,6 +422,10 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+body.dark footer {
+  color: #fff;
+}
+
 
 
 /* #Media

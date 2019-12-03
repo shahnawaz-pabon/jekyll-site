@@ -3,15 +3,14 @@
   Footer
   ======================== */
 
-  .footerWrap {
-    background-color: #2C3E50;
-    color:  #fff;
+  footer {
+    /* background-color: #2C3E50; */
+    color:  #2C3E50;
     font-size: 1em;
     text-align: center;
     padding: 2%;
-    margin-top: 3%;
+    margin-top: 25px;
     top: 100%;
-    left: 0;
     width: 100%;
     height: auto;
     position: absolute;
