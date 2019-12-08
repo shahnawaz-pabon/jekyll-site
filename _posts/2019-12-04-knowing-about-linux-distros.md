@@ -24,3 +24,9 @@ One of the most-used and best-known operating systems is **`Linux`** that distri
 
 <br/>
 <h3 id="linux-distributions"><i class="fas fa-list"></i> Linux Distributions</h3>
+
+After initial realeses of `Linux` in the early `1990s`, many bundles of software came to complement the `Linux kernel` which were brought by many organizations. These bundles are called `distributions`. These are about which version of what software. `Packages` are softwares and applications that are bundled. So `Linux Distributions` are classified by these package types. There are `three` basic types of packages:
+
+- **Debian**
+- **RedHat Package Manager(RPM)**
+- **Other Distributions**
