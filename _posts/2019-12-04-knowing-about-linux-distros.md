@@ -30,3 +30,9 @@ After initial realeses of `Linux` in the early `1990s`, many bundles of software
 - **Debian**
 - **RedHat Package Manager(RPM)**
 - **Other Distributions**
+
+#### <i class="fas fa-pen"></i> Debian Based Linux Distros
+
+#### <i class="fas fa-pen"></i> RedHat Package Manager
+
+#### <i class="fas fa-pen"></i> Other Distributions
