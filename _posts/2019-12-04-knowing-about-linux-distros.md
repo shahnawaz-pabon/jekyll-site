@@ -54,3 +54,14 @@ Package extension of this types of distros is `.rpm`. Distributions of this type
  - **[Stella](https://stella-emu.github.io/downloads.html)** etc.
 
 #### <i class="fas fa-pen"></i> Other Distributions
+
+Some other distributions are
+
+- **[Arch Linux](https://www.archlinux.org/download/)**
+- **[Slackware Linux](http://www.slackware.com/getslack/)**
+- **[Gentoo Linux](https://www.gentoo.org/downloads/)**
+- **[LXDE (Desktop Manager)](https://lxde.org/get/)** `(e.g. Lubuntu)`
+- **[XFCE (Desktop Manager)](https://www.xfce.org/download)** `(e.g. Xubuntu)` etc.
+<br/>
+
+You can see various types of `Linux Distributions` **[here](https://distrowatch.com/dwres.php?resource=popularity)**
