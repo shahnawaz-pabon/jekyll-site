@@ -45,4 +45,12 @@ The package extension of `Debian` is `.deb`. New distributions are based on `Deb
 
 #### <i class="fas fa-pen"></i> RedHat Package Manager
 
+Package extension of this types of distros is `.rpm`. Distributions of this type are
+
+ - **[CentOS](https://www.centos.org/download/)**
+ - **[Red Hat Enterprise Linux](https://developers.redhat.com/products/rhel/download)**
+ - **[ClearOS](https://www.clearos.com/download-clearos)**
+ - **[openSUSE](https://www.opensuse.org/)**
+ - **[Stella](https://stella-emu.github.io/downloads.html)** etc.
+
 #### <i class="fas fa-pen"></i> Other Distributions
