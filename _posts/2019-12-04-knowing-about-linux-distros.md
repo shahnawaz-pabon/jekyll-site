@@ -27,11 +27,21 @@ One of the most-used and best-known operating systems is **`Linux`** that distri
 
 After initial realeses of `Linux` in the early `1990s`, many bundles of software came to complement the `Linux kernel` which were brought by many organizations. These bundles are called `distributions`. These are about which version of what software. `Packages` are softwares and applications that are bundled. So `Linux Distributions` are classified by these package types. There are `three` basic types of packages:
 
-- **Debian**
+
+- **Debian Based Linux Distros**
 - **RedHat Package Manager(RPM)**
 - **Other Distributions**
 
+
 #### <i class="fas fa-pen"></i> Debian Based Linux Distros
+
+The package extension of `Debian` is `.deb`. New distributions are based on `Debian`. It's one of the oldest and very popular choice of `Linux Distributions`. Some distributions that use `.deb` packages are as follows
+
+- **[Debian](https://www.debian.org/distrib/)**
+- **[Ubuntu](https://ubuntu.com/download/desktop)**
+- **[Linux Mint](https://linuxmint.com/download.php)**
+- **[antiX](https://antixlinux.com/download/)**
+- **[Raspbian](https://www.raspberrypi.org/downloads/raspbian/)** etc.
 
 #### <i class="fas fa-pen"></i> RedHat Package Manager
 
