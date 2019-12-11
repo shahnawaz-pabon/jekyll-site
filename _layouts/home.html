@@ -51,7 +51,7 @@ layout: default
 
           <div style="margin: 0 20px;">
             <!-- Post's Title -->
-            <h3 style="margin-bottom: 0;">{{ post.title | escape }}</h3>
+            <h4 style="margin-bottom: 0;">{{ post.title | escape }}</h4>
 
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <small class="text-muted">{{ post.date | date: date_format }}</small>
