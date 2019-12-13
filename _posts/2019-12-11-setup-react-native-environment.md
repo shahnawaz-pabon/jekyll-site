@@ -36,3 +36,15 @@ $ sudo npm install -g react-native-cli
 $ react-native --version
 react-native-cli: 2.0.1
 ```
+
+<br/>
+<h3><i class="fab fa-android"></i> Setup Android development environment</h3>
+
+**[Download android studio](https://developer.android.com/studio/index.html)**. In my case downloaded file's name was `android-studio-ide-191.6010548-linux.tar.gz` and I kept it into my home directory. Then follow these steps
+
+```bash
+$ cd ~
+$ tar xvzf android-studio-ide-191.6010548-linux.tar.gz
+$ cd android-studio/bin/
+$ ./studio.sh
+```
