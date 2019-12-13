@@ -27,3 +27,12 @@ $ npm -v
 $ curl -sL https://deb.nodesource.com/setup_10.x | bash -
 $ sudo apt-get install -y nodejs
 ```
+
+<br/>
+<h3><i class="fas fa-angle-right"></i> Install react-native-cli</h3>
+
+```bash
+$ sudo npm install -g react-native-cli
+$ react-native --version
+react-native-cli: 2.0.1
+```
