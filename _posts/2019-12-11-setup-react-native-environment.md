@@ -87,3 +87,22 @@ OpenJDK 64-Bit Server VM (build 11.0.4+11-post-Ubuntu-1ubuntu218.04.3, mixed mod
 ```
 
 So you have successfully installed `java` on your `Ubuntu` system. My version was `Ubuntu 18.04.3 LTS`. At this point you are all set of working with react-native.
+
+<br/>
+<h3><i class="fas fa-spell-check"></i> Test your first react-native app</h3>
+
+First connect your android phone with a usb. Then run these commands
+
+```bash
+$ react-native init testReactApp
+$ cd testReactApp/
+$ react-native start
+
+# Open another terminal, go to testReactApp's directory and run this command
+$ react-native run-android
+```
+
+After a while, you will see your running app into your android phone.
+
+<br/>
+<div align='center'><h3> ~ Good Luck and Have fun <i class="far fa-smile-wink"></i> ~ </h3></div>
