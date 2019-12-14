@@ -56,3 +56,34 @@ After completing the installation of android studio, you need to install these f
 - **Android Virtual Device**
 
 To do that just go to `Appearance & Behavior → System Settings → Android SDK` from android studio and select your SDK platform and install.
+
+Then you need to set up `ANDROID_HOME` environment variables in order to build react native apps with native code. Now edit your `.bashrc` file and add these lines into it.
+
+```bash
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+```
+
+After adding those lines save it and run `source .bashrc` via terminal to keep running source to get the aliases working in any new login terminal instances.
+
+```bash
+$ source .bashrc
+```
+
+<br/>
+<h3><i class="fab fa-java"></i> Install java on your Ubuntu system</h3>
+
+```bash
+$ sudo apt update
+$ sudo apt install default-jdk
+$ java -version
+# Output
+openjdk version "11.0.4" 2019-07-16
+OpenJDK Runtime Environment (build 11.0.4+11-post-Ubuntu-1ubuntu218.04.3)
+OpenJDK 64-Bit Server VM (build 11.0.4+11-post-Ubuntu-1ubuntu218.04.3, mixed mode, sharing)
+```
+
+So you have successfully installed `java` on your `Ubuntu` system. My version was `Ubuntu 18.04.3 LTS`. At this point you are all set of working with react-native.
