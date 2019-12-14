@@ -48,3 +48,11 @@ $ tar xvzf android-studio-ide-191.6010548-linux.tar.gz
 $ cd android-studio/bin/
 $ ./studio.sh
 ```
+
+After completing the installation of android studio, you need to install these from android studio.
+
+- **Android SDK**
+- **Android SDK Platform**
+- **Android Virtual Device**
+
+To do that just go to `Appearance & Behavior → System Settings → Android SDK` from android studio and select your SDK platform and install.
