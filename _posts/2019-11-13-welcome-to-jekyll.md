@@ -1,39 +1,45 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Install Jekyll on Ubuntu"
 date:   2019-11-13 11:38:27 +0600
 featured-image: 'default.png'
 categories: jekyll
 tags: [jekyll, jekyll-start]
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+`Jekyll` is one of the popular static site generators. To work with `Jekyll`, you need to have all the required dependencies.
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+```bash
+$ sudo apt-get update
+$ sudo apt-get install ruby-full build-essential zlib1g-dev
 ```
 
-Javascript code
+Setup gems installation directory for your user account to avoid installing Ruby Gems as the root user. You will found this informed on [Jekyll's website][jekyll-site]. So add environment variables to `~/.bashrc` file to configure installation path.
 
-```javascript
-$('button').on('click', function() {
-	$('p').css('opacity', 0);
-});
+```bash
+$ echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+$ echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+$ source ~/.bashrc
 ```
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Now install Jekyll by running this
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+```
+$ gem install jekyll bundler
+```
+
+To create your own blog and test it, run the following
+
+```bash
+$ jekyll new myblog
+$ cd myblog
+$ bundle exec jekyll serve
+```
+
+Your site will be running on [http://localhost:4000][jekyll-link].
+
+`Congratulations` you've successfully run your own site. <i class="far fa-grin"></i>
+
+[jekyll-site]: https://jekyllrb.com/
+[jekyll-link]: http://localhost:4000
