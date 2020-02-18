@@ -14,7 +14,7 @@
 /* HEADER */
 .masthead {
   /* Layout declarations */
-  background: url("/assets/images/about.jpeg") no-repeat center center fixed;
+  background: url("/jekyll-site/assets/images/about.jpeg") no-repeat center center fixed;
   background-size: 100% 100%;
   padding: 1em 2em;
   text-align: center;

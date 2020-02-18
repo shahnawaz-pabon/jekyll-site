@@ -3,7 +3,7 @@ layout: page
 permalink: /about
 ---
 
-<link rel="stylesheet" href="/assets/css/about.css">
+<link rel="stylesheet" href="/jekyll-site/assets/css/about.css">
 
 <style>
 h3, p {
