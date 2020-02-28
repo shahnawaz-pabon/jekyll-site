@@ -10,6 +10,7 @@
 ## Table of Contents
 * [Description](#description)
 * [Technologies](#technologies)
+* [Install and Run](#install-and-run)
 * [Author](#author)
 * [License](#license)
 
@@ -20,6 +21,17 @@ This was my old site built with Jekyll and won't be updated anymore. [This][auth
 - [Jekyll][jekyll]
 - [Ruby][ruby]
 
+## Install and Run
+
+[Install dependencies][dependencies] to run your first Jekyll site. Then follow the instructions to run my site.
+
+```bash
+$ git clone https://github.com/PabonSEC/jekyll-site.git
+$ cd jekyll-site
+$ bundle install
+$ bundle exec jekyll serve
+```
+
 ## Author
 * [Shahnawaz Hossan][author]
 
@@ -27,6 +39,7 @@ This was my old site built with Jekyll and won't be updated anymore. [This][auth
 [MIT][license] © [Shahnawaz Hossan][author]
 
 <!-- Definitions -->
+[dependencies]: https://jekyllrb.com/docs/installation/#requirements
 [jekyll]: https://jekyllrb.com/
 [ruby]: https://www.ruby-lang.org/en/
 [author]: https://pabonsec.github.io
