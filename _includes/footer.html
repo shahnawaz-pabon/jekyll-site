@@ -1,10 +1,16 @@
 <!-- Footer -->
+<script>
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
 
 <footer>
   <div class="container footer-container">
     <div class="row footer-row">
       <div class="col-xs-12 col-md-6 col-sm-6" style="margin: auto">
-        <h6>© Shahnawaz Hossan 2019 | All Rights Reserved</h6>
+        <h6>
+          © Shahnawaz Hossan 2019-<span id="currentYear"></span> | All Rights
+          Reserved
+        </h6>
       </div>
 
       <div class="col-xs-12 col-md-6 col-sm-6 social-section">
