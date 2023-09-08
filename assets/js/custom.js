@@ -1,6 +1,4 @@
 (function ($) {
-  document.getElementById("currentYear").textContent = new Date().getFullYear();
-
   if (localStorage.theme == "dark") {
     $("body").addClass("dark");
     $(".light-mode").css("display", "");
@@ -43,6 +41,10 @@
       }, 1);
     }
   });
+
+  // Update the copyright year
+  const currentYear = new Date().getFullYear();
+  $("#currentYear").text(currentYear);
 
   //Switch light/dark
 
